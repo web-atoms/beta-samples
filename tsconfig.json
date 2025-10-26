@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module":"es2020",
+        "incremental": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "dist",
+        "downlevelIteration": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": false,
+        "jsx": "react",
+        "jsxFactory": "XNode.create",
+        "paths": {
+            "@web-atoms/web-atoms": ["./node_modules/@web-atoms/web-atoms"],
+            "*": ["./node_modules/"]
+        },
+        "lib": [
+            "es6",
+            "dom",
+            "ESNext.Disposable",
+            "ES2017.Object"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+		"node_modules",
+		"tests"
+    ],
+    "baseUrl": "./",
+    "paths": {
+        "tslib" : ["./node_modules/tslib/tslib.d.ts"]
+    }
+}
