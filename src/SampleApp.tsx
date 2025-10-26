@@ -1,4 +1,4 @@
-import { App } from "@web-atoms/web-atoms/dist/App";
+import { App } from "@web-atoms/web-atoms/dist/App.js";
 import { AtomControl } from "@web-atoms/web-atoms/dist/core/AtomControl.js";
 import Bind from "@web-atoms/web-atoms/dist/core/Bind.js";
 import XNode from "@web-atoms/web-atoms/dist/core/XNode.js";
