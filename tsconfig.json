@@ -16,10 +16,6 @@
         "allowSyntheticDefaultImports": false,
         "jsx": "react",
         "jsxFactory": "XNode.create",
-        "paths": {
-            "@web-atoms/web-atoms": ["./node_modules/@web-atoms/web-atoms"],
-            "*": ["./node_modules/"]
-        },
         "lib": [
             "es6",
             "dom",
